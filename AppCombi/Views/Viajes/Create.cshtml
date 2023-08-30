@@ -1,0 +1,194 @@
+﻿@model AppCombi.Models.Viaje
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Viaje</h4>
+<hr />
+
+<div class="container">
+    <form asp-action="Create">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-white">
+            
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                     <div class="form-group">
+                        <label asp-for="Identif" class="control-label"></label>
+                        <input asp-for="Identif" class="form-control" />
+                        <span asp-validation-for="Identif" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="ChoferID" class="control-label"></label>
+                        <select asp-for="ChoferID" class="form-control" asp-items="ViewBag.ChoferID"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="CarroID" class="control-label"></label>
+                        <select asp-for="CarroID" class="form-control" asp-items="ViewBag.CarroID"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="RutaID" class="control-label"></label>
+                        <select asp-for="RutaID" class ="form-control" asp-items="ViewBag.RutaID"></select>
+                    </div>
+            
+                    <div class="form-group">
+                        <label asp-for="Estado" class="control-label"></label>
+                        <input asp-for="Estado" class="form-control" />
+                        <span asp-validation-for="Estado" class="text-danger"></span>
+                    </div>
+           
+                    <div class="form-group">
+                        <label asp-for="FechaViaje" class="control-label"></label>
+                        <input asp-for="FechaViaje" class="form-control" />
+                        <span asp-validation-for="FechaViaje" class="text-danger"></span>
+                    </div>
+            
+
+
+
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+
+                            <div class="">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                Nombre
+                                            </th>
+                                            <th>
+                                                Edad
+                                            </th>
+                                            <th>
+                                                DNI
+                                            </th>
+                                            <th>
+                                                Asiento
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @{
+                                            var ListaDetalle = ViewBag.ListaDetalle;
+                                            int j = 0;
+                                            var asientos = ViewBag.Asiento;
+                                            if (ListaDetalle != null)
+                                            {
+                                                @foreach (var item in ListaDetalle)
+                                                {
+                                                    <tr>
+                                                        <td>
+                                                            @item.Pasajero.NombrePasajero;
+                                                        </td>
+                                                        <td>
+                                                            @item.Pasajero.Edad;
+                                                        </td>
+                                                        <td>
+                                                            @item.Pasajero.DniPasajero;
+                                                        </td>
+
+                                                        <td>
+                                                            <select name="Asiento">
+                                                                @foreach (var op in asientos)
+                                                                {
+                                                                    <option value="@op">@op</option>
+                                                                }
+                                                            </select>
+                                                        </td>
+
+                                                        <td>
+                                                            <button type="submit" name="opEPasajeroID" data-val="false" value="@j">
+                                                                <i class="fa-solid fa-add"></i>&nbsp;Eliminar
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+
+                                                    j++;
+                                                }
+                                            }
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+            </div>
+
+                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 py-4 bg-white">
+                        <div class="form-actions no-color">
+                            <p>
+                                Buscar Pasajero:
+                        <input type="text" name="buscaPasajero" value=""/>
+
+                                <button type="submit" name="operacion" data-val="false" value="buscar">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </p>
+
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Nombre
+                                    </th>
+                                    <th>
+                                        Edad
+                                    </th>
+                                    <th>
+                                        Dni
+                                    </th>
+                                    <th>Acción</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    var listaC = ViewBag.ListaPasajero;
+                                    int i = 1;
+                                }
+                                @foreach (var item in listaC)
+                                {
+
+                                    <tr>
+
+                                        <td>
+                                            @item.NombrePasajero
+
+                                        </td>
+                                        <td>
+                                            @item.Edad
+                                        </td>
+                                        <td>
+                                            @item.DniPasajero
+                                        </td>
+                                        <td>
+
+                                            <button type="submit" name="PasajeroID" data-val="false" value="@item.PasajeroID">
+                                                <i class="fa-solid fa-add"></i>&nbsp;Agregar
+                                            </button>
+                                        </td>
+
+                                    </tr>
+                                    i++;
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+        </div>
+    </form>
+</div>
+        
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

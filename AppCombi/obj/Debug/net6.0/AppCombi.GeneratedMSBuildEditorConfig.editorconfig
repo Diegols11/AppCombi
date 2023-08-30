@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppCombi
+build_property.RootNamespace = AppCombi
+build_property.ProjectDir = C:\Users\51935\Desktop\AppCombi\AppCombi\AppCombi\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\51935\Desktop\AppCombi\AppCombi\AppCombi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Acceso/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Carros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Carros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Carros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Carros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Carros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Choferes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hvZmVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Choferes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hvZmVyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Choferes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hvZmVyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Choferes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hvZmVyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Choferes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hvZmVyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Pasajeros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzYWplcm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Pasajeros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzYWplcm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Pasajeros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzYWplcm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Pasajeros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzYWplcm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Pasajeros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzYWplcm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Rutas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Rutas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Rutas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Rutas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Rutas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnV0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Viajes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlhamVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Viajes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlhamVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Viajes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlhamVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Viajes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlhamVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Viajes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlhamVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/51935/Desktop/AppCombi/AppCombi/AppCombi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s084uvui8f

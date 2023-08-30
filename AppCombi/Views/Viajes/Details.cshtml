@@ -1,0 +1,114 @@
+﻿@model AppCombi.Models.Viaje
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Viaje</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Identif)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Identif)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Chofer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Chofer.Nombre)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Carro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Carro.Placa)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ruta)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ruta.NombreRuta)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaViaje)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaViaje)
+        </dd>
+              
+        
+    </dl>
+
+    <div class="">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Edad
+                    </th>
+                    <th>
+                        DNI
+                    </th>
+                    <th>
+                        Asiento
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    var ListaDetalle = Model.detalleViajes;
+                    if (ListaDetalle != null)
+                    {
+                        @foreach (var item in ListaDetalle)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Pasajero.NombrePasajero;
+                                </td>
+                                <td>
+                                    @item.Pasajero.Edad;
+                                </td>
+                                <td>
+                                    @item.Pasajero.DniPasajero;
+                                </td>
+                                <td>
+                                    @item.Asiento
+                                </td>
+
+                            </tr>
+
+                        }
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ViajeID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
